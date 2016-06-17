@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirefoxTest"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.200">
+  <properties />
+  
+  
+            <testcase name="getApiResponseError4" time="0.028" classname="automationFramework.TestCases.ApiCustomerSecurity" />
+                <testcase name="getApiResponseError2" time="0.033" classname="automationFramework.TestCases.ApiCustomerSecurity" />
+                <testcase name="getApiResponseError3" time="0.023" classname="automationFramework.TestCases.ApiCustomerSecurity" />
+                <testcase name="getApiResponseSuccess" time="0.037" classname="automationFramework.TestCases.ApiCustomerSecurity" />
+                <testcase name="getApiResponseError5" time="0.027" classname="automationFramework.TestCases.ApiCustomerSecurity" />
+                <testcase name="getApiResponseError" time="0.052" classname="automationFramework.TestCases.ApiCustomerSecurity" />
+      
+</testsuite>

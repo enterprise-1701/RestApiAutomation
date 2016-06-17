@@ -1,0 +1,12 @@
+<suite name="Test2 - Suite" >
+	<test name ="FirefoxTest">
+		<classes>
+		    <class name="automationFramework.TestCases.ApiCustomerSearch" />
+		    <class name="automationFramework.TestCases.ApiCustomerSecurity" />
+		</classes>
+	</test>
+		<listeners>
+       <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+</suite>

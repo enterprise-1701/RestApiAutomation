@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test2 - Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="FirefoxTest(failed)">
+    <classes>
+      <class name="automationFramework.TestCases.ApiCustomerSearch">
+        <methods>
+          <include name="getApiResponseError4"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.ApiCustomerSearch -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Test2 - Suite] -->
