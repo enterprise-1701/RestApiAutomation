@@ -1,8 +1,7 @@
 <suite name="Test2 - Suite" >
-	<test name ="FirefoxTest">
+	<test name ="ApiTest">
 		<classes>
-		    <class name="automationFramework.TestCases.ApiCustomerSearch" />
-		    <class name="automationFramework.TestCases.ApiCustomerSecurity" />
+		      <class name="automationFramework.TestCases.ApiCreateAccount" />
 		</classes>
 	</test>
 		<listeners>

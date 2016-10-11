@@ -5,13 +5,15 @@
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="FirefoxTest(failed)">
+  <test name="ApiTest(failed)">
     <classes>
-      <class name="automationFramework.TestCases.ApiCustomerSearch">
+      <class name="automationFramework.TestCases.ApiOamLinkSubsystemErrors">
         <methods>
-          <include name="getApiResponseError4"/>
+          <include name="ApiErrorAccountMax"/>
+          <include name="ApiSubsystemIdMax"/>
+          <include name="ApiBalanceTransferLarge"/>
         </methods>
-      </class> <!-- automationFramework.TestCases.ApiCustomerSearch -->
+      </class> <!-- automationFramework.TestCases.ApiOamLinkSubsystemErrors -->
     </classes>
-  </test> <!-- FirefoxTest(failed) -->
+  </test> <!-- ApiTest(failed) -->
 </suite> <!-- Failed suite [Test2 - Suite] -->

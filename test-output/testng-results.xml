@@ -1,63 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Test2 - Suite" duration-ms="2826" started-at="2016-06-16T18:42:29Z" finished-at="2016-06-16T18:42:32Z">
+  <suite name="Test2 - Suite" duration-ms="1734" started-at="2016-10-11T16:27:11Z" finished-at="2016-10-11T16:27:13Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="2826" started-at="2016-06-16T18:42:29Z" finished-at="2016-06-16T18:42:32Z">
-      <class name="automationFramework.TestCases.ApiCustomerSearch">
-        <test-method status="PASS" signature="getApiResponseError()[pri:0, instance:automationFramework.TestCases.ApiCustomerSearch@396f6598]" name="getApiResponseError" duration-ms="2312" started-at="2016-06-16T11:42:29Z" finished-at="2016-06-16T11:42:31Z">
+    <test name="ApiTest" duration-ms="1734" started-at="2016-10-11T16:27:11Z" finished-at="2016-10-11T16:27:13Z">
+      <class name="automationFramework.TestCases.ApiCreateAccount">
+        <test-method status="PASS" signature="ApiPostSuccess()[pri:0, instance:automationFramework.TestCases.ApiCreateAccount@57e1b0c]" name="ApiPostSuccess" duration-ms="1719" started-at="2016-10-11T09:27:11Z" finished-at="2016-10-11T09:27:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getApiResponseError -->
-        <test-method status="PASS" signature="getApiResponseError2()[pri:0, instance:automationFramework.TestCases.ApiCustomerSearch@396f6598]" name="getApiResponseError2" duration-ms="56" started-at="2016-06-16T11:42:31Z" finished-at="2016-06-16T11:42:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiResponseError2 -->
-        <test-method status="PASS" signature="getApiResponseError3()[pri:0, instance:automationFramework.TestCases.ApiCustomerSearch@396f6598]" name="getApiResponseError3" duration-ms="45" started-at="2016-06-16T11:42:32Z" finished-at="2016-06-16T11:42:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiResponseError3 -->
-        <test-method status="PASS" signature="getApiResponseError4()[pri:0, instance:automationFramework.TestCases.ApiCustomerSearch@396f6598]" name="getApiResponseError4" duration-ms="63" started-at="2016-06-16T11:42:32Z" finished-at="2016-06-16T11:42:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiResponseError4 -->
-        <test-method status="PASS" signature="getApiResponseError5()[pri:0, instance:automationFramework.TestCases.ApiCustomerSearch@396f6598]" name="getApiResponseError5" duration-ms="38" started-at="2016-06-16T11:42:32Z" finished-at="2016-06-16T11:42:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiResponseError5 -->
-        <test-method status="PASS" signature="getApiResponseSuccess()[pri:0, instance:automationFramework.TestCases.ApiCustomerSearch@396f6598]" name="getApiResponseSuccess" duration-ms="75" started-at="2016-06-16T11:42:32Z" finished-at="2016-06-16T11:42:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiResponseSuccess -->
-      </class> <!-- automationFramework.TestCases.ApiCustomerSearch -->
-      <class name="automationFramework.TestCases.ApiCustomerSecurity">
-        <test-method status="PASS" signature="getApiResponseError()[pri:0, instance:automationFramework.TestCases.ApiCustomerSecurity@131276c2]" name="getApiResponseError" duration-ms="52" started-at="2016-06-16T11:42:32Z" finished-at="2016-06-16T11:42:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiResponseError -->
-        <test-method status="PASS" signature="getApiResponseError2()[pri:0, instance:automationFramework.TestCases.ApiCustomerSecurity@131276c2]" name="getApiResponseError2" duration-ms="33" started-at="2016-06-16T11:42:32Z" finished-at="2016-06-16T11:42:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiResponseError2 -->
-        <test-method status="PASS" signature="getApiResponseError3()[pri:0, instance:automationFramework.TestCases.ApiCustomerSecurity@131276c2]" name="getApiResponseError3" duration-ms="23" started-at="2016-06-16T11:42:32Z" finished-at="2016-06-16T11:42:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiResponseError3 -->
-        <test-method status="PASS" signature="getApiResponseError4()[pri:0, instance:automationFramework.TestCases.ApiCustomerSecurity@131276c2]" name="getApiResponseError4" duration-ms="28" started-at="2016-06-16T11:42:32Z" finished-at="2016-06-16T11:42:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiResponseError4 -->
-        <test-method status="PASS" signature="getApiResponseError5()[pri:0, instance:automationFramework.TestCases.ApiCustomerSecurity@131276c2]" name="getApiResponseError5" duration-ms="27" started-at="2016-06-16T11:42:32Z" finished-at="2016-06-16T11:42:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiResponseError5 -->
-        <test-method status="PASS" signature="getApiResponseSuccess()[pri:0, instance:automationFramework.TestCases.ApiCustomerSecurity@131276c2]" name="getApiResponseSuccess" duration-ms="37" started-at="2016-06-16T11:42:32Z" finished-at="2016-06-16T11:42:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getApiResponseSuccess -->
-      </class> <!-- automationFramework.TestCases.ApiCustomerSecurity -->
-    </test> <!-- FirefoxTest -->
+        </test-method> <!-- ApiPostSuccess -->
+      </class> <!-- automationFramework.TestCases.ApiCreateAccount -->
+    </test> <!-- ApiTest -->
   </suite> <!-- Test2 - Suite -->
 </testng-results>
