@@ -31,14 +31,679 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">ApiTest</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">1.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">ApiTest</td><td class="numi">20</td><td class="numi">20</td><td class="numi">0</td><td class="numi_attn">50</td><td class="numi">10.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">ApiTest &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="50">automationFramework.TestCases.ApiCustomerPost</td><td><a href="#m1"><b>apiErrorAddressId</b>  </a></td><td class="numi">1</td><td>1478097397836</td><td class="numi">1341</td></tr><tr class="failedodd"><td><a href="#m2"><b>apiErrorBlankAddress</b>  </a></td><td class="numi">1</td><td>1478097399255</td><td class="numi">78</td></tr><tr class="failedodd"><td><a href="#m3"><b>apiErrorBlankCity</b>  </a></td><td class="numi">1</td><td>1478097399411</td><td class="numi">32</td></tr><tr class="failedodd"><td><a href="#m4"><b>apiErrorBlankCountry</b>  </a></td><td class="numi">1</td><td>1478097400145</td><td class="numi">46</td></tr><tr class="failedodd"><td><a href="#m5"><b>apiErrorBlankPassword</b>  </a></td><td class="numi">1</td><td>1478097400503</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m6"><b>apiErrorBlankPersonalId</b>  </a></td><td class="numi">1</td><td>1478097400597</td><td class="numi">31</td></tr><tr class="failedodd"><td><a href="#m7"><b>apiErrorBlankPersonalIdType</b>  </a></td><td class="numi">1</td><td>1478097400722</td><td class="numi">47</td></tr><tr class="failedodd"><td><a href="#m8"><b>apiErrorBlankPhoneNumber</b>  </a></td><td class="numi">1</td><td>1478097400847</td><td class="numi">46</td></tr><tr class="failedodd"><td><a href="#m9"><b>apiErrorBlankPhoneNumber2</b>  </a></td><td class="numi">1</td><td>1478097400971</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m10"><b>apiErrorBlankPhoneNumber3</b>  </a></td><td class="numi">1</td><td>1478097401049</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m11"><b>apiErrorBlankPhoneType</b>  </a></td><td class="numi">1</td><td>1478097401143</td><td class="numi">31</td></tr><tr class="failedodd"><td><a href="#m12"><b>apiErrorBlankPhoneType2</b>  </a></td><td class="numi">1</td><td>1478097401268</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m13"><b>apiErrorBlankPhoneType3</b>  </a></td><td class="numi">1</td><td>1478097401361</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m14"><b>apiErrorBlankPostalCode</b>  </a></td><td class="numi">1</td><td>1478097401439</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m15"><b>apiErrorBlankState</b>  </a></td><td class="numi">1</td><td>1478097401533</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m16"><b>apiErrorContainConsecutiveCharacterPin</b>  </a></td><td class="numi">1</td><td>1478097401720</td><td class="numi">47</td></tr><tr class="failedodd"><td><a href="#m17"><b>apiErrorContainContigousCharacterPin</b>  </a></td><td class="numi">1</td><td>1478097401861</td><td class="numi">46</td></tr><tr class="failedodd"><td><a href="#m18"><b>apiErrorContainDictionaryPassword</b>  </a></td><td class="numi">1</td><td>1478097401985</td><td class="numi">47</td></tr><tr class="failedodd"><td><a href="#m19"><b>apiErrorContainDigitsPassword</b>  </a></td><td class="numi">1</td><td>1478097402110</td><td class="numi">47</td></tr><tr class="failedodd"><td><a href="#m20"><b>apiErrorContainLettersPassword</b>  </a></td><td class="numi">1</td><td>1478097402297</td><td class="numi">32</td></tr><tr class="failedodd"><td><a href="#m21"><b>apiErrorContainSameCharacterPassword</b>  </a></td><td class="numi">1</td><td>1478097402422</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m22"><b>apiErrorContainSpecialCharactersPassword</b>  </a></td><td class="numi">1</td><td>1478097402532</td><td class="numi">46</td></tr><tr class="failedodd"><td><a href="#m23"><b>apiErrorContainUsernamePassword</b>  </a></td><td class="numi">1</td><td>1478097402656</td><td class="numi">47</td></tr><tr class="failedodd"><td><a href="#m24"><b>apiErrorDuplicateUserName</b>  </a></td><td class="numi">1</td><td>1478097402922</td><td class="numi">109</td></tr><tr class="failedodd"><td><a href="#m25"><b>apiErrorInvalidContactType</b>  </a></td><td class="numi">1</td><td>1478097403124</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m26"><b>apiErrorInvalidCountry</b>  </a></td><td class="numi">1</td><td>1478097403218</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m27"><b>apiErrorInvalidCustomerType</b>  </a></td><td class="numi">1</td><td>1478097403327</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m28"><b>apiErrorInvalidPersonalIdType</b>  </a></td><td class="numi">1</td><td>1478097403546</td><td class="numi">15</td></tr><tr class="failedodd"><td><a href="#m29"><b>apiErrorInvalidPhoneNumber</b>  </a></td><td class="numi">1</td><td>1478097403686</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m30"><b>apiErrorInvalidPhoneNumber2</b>  </a></td><td class="numi">1</td><td>1478097403795</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m31"><b>apiErrorInvalidPhoneNumber3</b>  </a></td><td class="numi">1</td><td>1478097403873</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m32"><b>apiErrorInvalidPhoneType</b>  </a></td><td class="numi">1</td><td>1478097403951</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m33"><b>apiErrorInvalidPhoneType2</b>  </a></td><td class="numi">1</td><td>1478097404060</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m34"><b>apiErrorInvalidPhoneType3</b>  </a></td><td class="numi">1</td><td>1478097404154</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m35"><b>apiErrorInvalidState</b>  </a></td><td class="numi">1</td><td>1478097404404</td><td class="numi">62</td></tr><tr class="failedodd"><td><a href="#m36"><b>apiErrorInvalidSuffixId</b>  </a></td><td class="numi">1</td><td>1478097404560</td><td class="numi">46</td></tr><tr class="failedodd"><td><a href="#m37"><b>apiErrorInvalidUserName</b>  </a></td><td class="numi">1</td><td>1478097404700</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m38"><b>apiErrorMaxLengthPassword</b>  </a></td><td class="numi">1</td><td>1478097405589</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m39"><b>apiErrorMaxLengthUserName</b>  </a></td><td class="numi">1</td><td>1478097405854</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m40"><b>apiErrorMaximumLengthEmail</b>  </a></td><td class="numi">1</td><td>1478097405979</td><td class="numi">47</td></tr><tr class="failedodd"><td><a href="#m41"><b>apiErrorMinLengthPassword</b>  </a></td><td class="numi">1</td><td>1478097406104</td><td class="numi">31</td></tr><tr class="failedodd"><td><a href="#m42"><b>apiErrorMixCasesPassword</b>  </a></td><td class="numi">1</td><td>1478097406213</td><td class="numi">47</td></tr><tr class="failedodd"><td><a href="#m43"><b>apiErrorSecurityAnswerBlank</b>  </a></td><td class="numi">1</td><td>1478097406510</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m44"><b>apiErrorSecurityAnswerMaxLength</b>  </a></td><td class="numi">1</td><td>1478097406588</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m45"><b>apiErrorSecurityQuestionBlank</b>  </a></td><td class="numi">1</td><td>1478097406681</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m46"><b>apiErrorSecurityQuestionInvalid</b>  </a></td><td class="numi">1</td><td>1478097406790</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m47"><b>apiErrorSpecialCharactersEmail</b>  </a></td><td class="numi">1</td><td>1478097406931</td><td class="numi">31</td></tr><tr class="failedodd"><td><a href="#m48"><b>apiErrorSpecialCharactersUserName</b>  </a></td><td class="numi">1</td><td>1478097407102</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m49"><b>apiErrorTooLongPin</b>  </a></td><td class="numi">1</td><td>1478097407196</td><td class="numi">16</td></tr><tr class="failedodd"><td><a href="#m50"><b>apiErrorTooSmallPin</b>  </a></td><td class="numi">1</td><td>1478097407290</td><td class="numi">15</td></tr>
 <tr><th colspan="4">ApiTest &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">automationFramework.TestCases.ApiCreateAccount</td><td><a href="#m1"><b>ApiPostSuccess</b>  </a></td><td class="numi">1</td><td>1476203231644</td><td class="numi">1719</td></tr>
+<tr class="passedodd"><td rowspan="20">automationFramework.TestCases.ApiCustomerPost</td><td><a href="#m51"><b>apiErrorBlankContact</b>  </a></td><td class="numi">1</td><td>1478097399536</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m52"><b>apiErrorBlankContactFirstName</b>  </a></td><td class="numi">1</td><td>1478097399661</td><td class="numi">31</td></tr><tr class="passedodd"><td><a href="#m53"><b>apiErrorBlankContactLastName</b>  </a></td><td class="numi">1</td><td>1478097399801</td><td class="numi">32</td></tr><tr class="passedodd"><td><a href="#m54"><b>apiErrorBlankContactName</b>  </a></td><td class="numi">1</td><td>1478097399911</td><td class="numi">31</td></tr><tr class="passedodd"><td><a href="#m55"><b>apiErrorBlankContactType</b>  </a></td><td class="numi">1</td><td>1478097400020</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m56"><b>apiErrorBlankCustomerType</b>  </a></td><td class="numi">1</td><td>1478097400285</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m57"><b>apiErrorBlankEmail</b>  </a></td><td class="numi">1</td><td>1478097400410</td><td class="numi">15</td></tr><tr class="passedodd"><td><a href="#m58"><b>apiErrorBlankUserName</b>  </a></td><td class="numi">1</td><td>1478097401627</td><td class="numi">15</td></tr><tr class="passedodd"><td><a href="#m59"><b>apiErrorContainUsernamePin</b>  </a></td><td class="numi">1</td><td>1478097402828</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m60"><b>apiErrorInvalidFormatEmail</b>  </a></td><td class="numi">1</td><td>1478097403436</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m61"><b>apiErrorInvalidPostalCode</b>  </a></td><td class="numi">1</td><td>1478097404263</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m62"><b>apiErrorMaxLengthAddress</b>  </a></td><td class="numi">1</td><td>1478097404809</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m63"><b>apiErrorMaxLengthAddress2</b>  </a></td><td class="numi">1</td><td>1478097404903</td><td class="numi">15</td></tr><tr class="passedodd"><td><a href="#m64"><b>apiErrorMaxLengthCity</b>  </a></td><td class="numi">1</td><td>1478097404996</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m65"><b>apiErrorMaxLengthContactFirstName</b>  </a></td><td class="numi">1</td><td>1478097405121</td><td class="numi">63</td></tr><tr class="passedodd"><td><a href="#m66"><b>apiErrorMaxLengthContactLastName</b>  </a></td><td class="numi">1</td><td>1478097405262</td><td class="numi">31</td></tr><tr class="passedodd"><td><a href="#m67"><b>apiErrorMaxLengthContactMiddleName</b>  </a></td><td class="numi">1</td><td>1478097405449</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m68"><b>apiErrorMaxLengthPersonalId</b>  </a></td><td class="numi">1</td><td>1478097405714</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m69"><b>apiErrorNonNumericPin</b>  </a></td><td class="numi">1</td><td>1478097406369</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m70"><b>apiPostSuccess</b>  </a></td><td class="numi">1</td><td>1478097407383</td><td class="numi">63</td></tr>
 </table>
 <h1>ApiTest</h1>
-<h2 id="m1">automationFramework.TestCases.ApiCreateAccount:ApiPostSuccess</h2>
+<h2 id="m1">automationFramework.TestCases.ApiCustomerPost:apiErrorContainConsecutiveCharacterPin</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorContainConsecutiveCharacterPin(ApiCustomerPost.java:781)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidSuffixId</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidSuffixId(ApiCustomerPost.java:186)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidCustomerType</h2>
+<div style="padding-left:3em">
+<p>expected [Invalid customer type.] but found [Invalid value.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidCustomerType(ApiCustomerPost.java:72)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">automationFramework.TestCases.ApiCustomerPost:apiErrorContainDictionaryPassword</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorContainDictionaryPassword(ApiCustomerPost.java:756)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">automationFramework.TestCases.ApiCustomerPost:apiErrorMixCasesPassword</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorMixCasesPassword(ApiCustomerPost.java:720)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">automationFramework.TestCases.ApiCustomerPost:apiErrorContainDigitsPassword</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorContainDigitsPassword(ApiCustomerPost.java:708)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthPassword</h2>
+<div style="padding-left:3em">
+<p>Unrecognized field &quot;params&quot; (class automationFramework.TestCases.RestResponseHeader), not marked as ignorable (5 known properties: , &quot;uid&quot;, &quot;fieldName&quot;, &quot;errorKey&quot;, &quot;result&quot;, &quot;errorMessage&quot;])
+ at [Source: java.io.StringReader@7c28c1; line: 1, column: 207] (through reference chain: automationFramework.TestCases.WSCreateNewCustomerResponse[&quot;hdr&quot;]-&gt;automationFramework.TestCases.RestResponseHeader[&quot;params&quot;])</p>
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:79)
+<br/>at com.fasterxml.jackson.databind.DeserializationContext.reportUnknownProperty(DeserializationContext.java:555)
+<br/>at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:708)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1160)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:315)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121)
+<br/>at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:464)
+<br/>at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:107)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:295)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2888)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2048)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper$readValue$2.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.groovy:43)
+<br/>at com.jayway.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:60)
+<br/>at com.jayway.restassured.mapper.ObjectMapper$deserialize$0.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:202)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping$parseWithJackson2$1.callStatic(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:55)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:216)
+<br/>at com.jayway.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:159)
+<br/>at automationFramework.TestCases.ApiCustomerPost.sendAPIRequest(ApiCustomerPost.java:972)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorMaxLengthPassword(ApiCustomerPost.java:695)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankPhoneType</h2>
+<div style="padding-left:3em">
+<p>expected [If phone1 is provided, phone type is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankPhoneType(ApiCustomerPost.java:366)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankPostalCode</h2>
+<div style="padding-left:3em">
+<p>expected [If address is provided, postal code is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankPostalCode(ApiCustomerPost.java:318)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">automationFramework.TestCases.ApiCustomerPost:apiErrorSpecialCharactersEmail</h2>
+<div style="padding-left:3em">
+<p>expected [Cannot start with special characters: &quot;.&quot; ,&quot;@&quot; or &quot;www.&quot;] but found [Email cannot start with special characters.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorSpecialCharactersEmail(ApiCustomerPost.java:510)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidPhoneType2</h2>
+<div style="padding-left:3em">
+<p>Index: 1, Size: 1</p>
+java.util.ArrayList.rangeCheck(Unknown Source)
+<br/>at java.util.ArrayList.get(Unknown Source)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidPhoneType2(ApiCustomerPost.java:423)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">automationFramework.TestCases.ApiCustomerPost:apiErrorDuplicateUserName</h2>
+<div style="padding-left:3em">
+<p>expected [Value already exists] but found [null]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorDuplicateUserName(ApiCustomerPost.java:636)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankPhoneType2</h2>
+<div style="padding-left:3em">
+<p>Index: 1, Size: 1</p>
+java.util.ArrayList.rangeCheck(Unknown Source)
+<br/>at java.util.ArrayList.get(Unknown Source)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankPhoneType2(ApiCustomerPost.java:411)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankState</h2>
+<div style="padding-left:3em">
+<p>expected [If address is provided, state is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankState(ApiCustomerPost.java:295)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankPhoneNumber</h2>
+<div style="padding-left:3em">
+<p>expected [If phone is provided, phone number is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankPhoneNumber(ApiCustomerPost.java:342)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankPhoneNumber2</h2>
+<div style="padding-left:3em">
+<p>Index: 1, Size: 1</p>
+java.util.ArrayList.rangeCheck(Unknown Source)
+<br/>at java.util.ArrayList.get(Unknown Source)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankPhoneNumber2(ApiCustomerPost.java:387)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankPersonalIdType</h2>
+<div style="padding-left:3em">
+<p>expected [If personal identifier info is provided, personal identifier type is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankPersonalIdType(ApiCustomerPost.java:558)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">automationFramework.TestCases.ApiCustomerPost:apiErrorContainLettersPassword</h2>
+<div style="padding-left:3em">
+<p>expected [errors.password.must.contain.atleast.chars] but found [errors.password.cannot.contain.contiguous.chars]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorContainLettersPassword(ApiCustomerPost.java:732)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidPhoneNumber</h2>
+<div style="padding-left:3em">
+<p>expected [Invalid phone number.] but found [Invalid format dictated by country.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidPhoneNumber(ApiCustomerPost.java:354)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">automationFramework.TestCases.ApiCustomerPost:apiErrorAddressId</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorAddressId(ApiCustomerPost.java:198)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidContactType</h2>
+<div style="padding-left:3em">
+<p>expected [Invalid contact type.] but found [Invalid value.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidContactType(ApiCustomerPost.java:93)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankAddress</h2>
+<div style="padding-left:3em">
+<p>expected [If address is provided, address1 is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankAddress(ApiCustomerPost.java:210)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidPhoneType3</h2>
+<div style="padding-left:3em">
+<p>Index: 2, Size: 1</p>
+java.util.ArrayList.rangeCheck(Unknown Source)
+<br/>at java.util.ArrayList.get(Unknown Source)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidPhoneType3(ApiCustomerPost.java:471)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankCity</h2>
+<div style="padding-left:3em">
+<p>expected [If address is provided, city is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankCity(ApiCustomerPost.java:248)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">automationFramework.TestCases.ApiCustomerPost:apiErrorContainSpecialCharactersPassword</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorContainSpecialCharactersPassword(ApiCustomerPost.java:744)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">automationFramework.TestCases.ApiCustomerPost:apiErrorSpecialCharactersUserName</h2>
+<div style="padding-left:3em">
+<p>expected [Cannot start with special characters: &quot;.&quot; ,&quot;@&quot; or &quot;www.&quot;] but found [Email cannot start with special characters.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorSpecialCharactersUserName(ApiCustomerPost.java:605)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">automationFramework.TestCases.ApiCustomerPost:apiErrorTooSmallPin</h2>
+<div style="padding-left:3em">
+<p>Unrecognized field &quot;params&quot; (class automationFramework.TestCases.RestResponseHeader), not marked as ignorable (5 known properties: , &quot;uid&quot;, &quot;fieldName&quot;, &quot;errorKey&quot;, &quot;result&quot;, &quot;errorMessage&quot;])
+ at [Source: java.io.StringReader@777c350f; line: 1, column: 180] (through reference chain: automationFramework.TestCases.WSCreateNewCustomerResponse[&quot;hdr&quot;]-&gt;automationFramework.TestCases.RestResponseHeader[&quot;params&quot;])</p>
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:79)
+<br/>at com.fasterxml.jackson.databind.DeserializationContext.reportUnknownProperty(DeserializationContext.java:555)
+<br/>at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:708)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1160)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:315)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121)
+<br/>at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:464)
+<br/>at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:107)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:295)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2888)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2048)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper$readValue$2.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.groovy:43)
+<br/>at com.jayway.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:60)
+<br/>at com.jayway.restassured.mapper.ObjectMapper$deserialize$0.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:202)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping$parseWithJackson2$1.callStatic(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:55)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:216)
+<br/>at com.jayway.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:159)
+<br/>at automationFramework.TestCases.ApiCustomerPost.sendAPIRequest(ApiCustomerPost.java:972)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorTooSmallPin(ApiCustomerPost.java:804)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankCountry</h2>
+<div style="padding-left:3em">
+<p>expected [If address is provided, country is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankCountry(ApiCustomerPost.java:272)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankPhoneType3</h2>
+<div style="padding-left:3em">
+<p>Index: 2, Size: 1</p>
+java.util.ArrayList.rangeCheck(Unknown Source)
+<br/>at java.util.ArrayList.get(Unknown Source)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankPhoneType3(ApiCustomerPost.java:459)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidPersonalIdType</h2>
+<div style="padding-left:3em">
+<p>expected [Invalid personal identifier type.] but found [Invalid value.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidPersonalIdType(ApiCustomerPost.java:570)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidState</h2>
+<div style="padding-left:3em">
+<p>expected [Invalid state.] but found [Invalid value.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidState(ApiCustomerPost.java:307)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidCountry</h2>
+<div style="padding-left:3em">
+<p>expected [Invalid country.] but found [Invalid value.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidCountry(ApiCustomerPost.java:284)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">automationFramework.TestCases.ApiCustomerPost:apiErrorTooLongPin</h2>
+<div style="padding-left:3em">
+<p>Unrecognized field &quot;params&quot; (class automationFramework.TestCases.RestResponseHeader), not marked as ignorable (5 known properties: , &quot;uid&quot;, &quot;fieldName&quot;, &quot;errorKey&quot;, &quot;result&quot;, &quot;errorMessage&quot;])
+ at [Source: java.io.StringReader@5ca1f591; line: 1, column: 180] (through reference chain: automationFramework.TestCases.WSCreateNewCustomerResponse[&quot;hdr&quot;]-&gt;automationFramework.TestCases.RestResponseHeader[&quot;params&quot;])</p>
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:79)
+<br/>at com.fasterxml.jackson.databind.DeserializationContext.reportUnknownProperty(DeserializationContext.java:555)
+<br/>at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:708)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1160)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:315)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121)
+<br/>at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:464)
+<br/>at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:107)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:295)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2888)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2048)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper$readValue$2.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.groovy:43)
+<br/>at com.jayway.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:60)
+<br/>at com.jayway.restassured.mapper.ObjectMapper$deserialize$0.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:202)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping$parseWithJackson2$1.callStatic(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:55)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:216)
+<br/>at com.jayway.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:159)
+<br/>at automationFramework.TestCases.ApiCustomerPost.sendAPIRequest(ApiCustomerPost.java:972)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorTooLongPin(ApiCustomerPost.java:816)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidPhoneNumber2</h2>
+<div style="padding-left:3em">
+<p>Index: 1, Size: 1</p>
+java.util.ArrayList.rangeCheck(Unknown Source)
+<br/>at java.util.ArrayList.get(Unknown Source)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidPhoneNumber2(ApiCustomerPost.java:399)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">automationFramework.TestCases.ApiCustomerPost:apiErrorMinLengthPassword</h2>
+<div style="padding-left:3em">
+<p>Unrecognized field &quot;params&quot; (class automationFramework.TestCases.RestResponseHeader), not marked as ignorable (5 known properties: , &quot;uid&quot;, &quot;fieldName&quot;, &quot;errorKey&quot;, &quot;result&quot;, &quot;errorMessage&quot;])
+ at [Source: java.io.StringReader@6bcbf05b; line: 1, column: 185] (through reference chain: automationFramework.TestCases.WSCreateNewCustomerResponse[&quot;hdr&quot;]-&gt;automationFramework.TestCases.RestResponseHeader[&quot;params&quot;])</p>
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:79)
+<br/>at com.fasterxml.jackson.databind.DeserializationContext.reportUnknownProperty(DeserializationContext.java:555)
+<br/>at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:708)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1160)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:315)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121)
+<br/>at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:464)
+<br/>at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:107)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:295)
+<br/>at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2888)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2048)
+<br/>at com.fasterxml.jackson.databind.ObjectMapper$readValue$2.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.groovy:43)
+<br/>at com.jayway.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:60)
+<br/>at com.jayway.restassured.mapper.ObjectMapper$deserialize$0.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:202)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping$parseWithJackson2$1.callStatic(Unknown Source)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:55)
+<br/>at com.jayway.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
+<br/>at com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:216)
+<br/>at com.jayway.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:159)
+<br/>at automationFramework.TestCases.ApiCustomerPost.sendAPIRequest(ApiCustomerPost.java:972)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorMinLengthPassword(ApiCustomerPost.java:683)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">automationFramework.TestCases.ApiCustomerPost:apiErrorSecurityQuestionBlank</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.apiErrorSecurityQuestionBlank(ApiCustomerPost.java:838)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">automationFramework.TestCases.ApiCustomerPost:apiErrorSecurityAnswerMaxLength</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.apiErrorSecurityAnswerMaxLength(ApiCustomerPost.java:874)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">automationFramework.TestCases.ApiCustomerPost:apiErrorContainSameCharacterPassword</h2>
+<div style="padding-left:3em">
+<p>expected [errors.password.cannot.contain.same.char.consecutively] but found [errors.password.cannot.contain.contiguous.chars]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorContainSameCharacterPassword(ApiCustomerPost.java:672)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidPhoneNumber3</h2>
+<div style="padding-left:3em">
+<p>Index: 2, Size: 1</p>
+java.util.ArrayList.rangeCheck(Unknown Source)
+<br/>at java.util.ArrayList.get(Unknown Source)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidPhoneNumber3(ApiCustomerPost.java:447)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankPassword</h2>
+<div style="padding-left:3em">
+<p>expected [Field is blank.] but found [null]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankPassword(ApiCustomerPost.java:647)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidPhoneType</h2>
+<div style="padding-left:3em">
+<p>expected [Invalid phone type.] but found [Invalid value.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidPhoneType(ApiCustomerPost.java:378)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">automationFramework.TestCases.ApiCustomerPost:apiErrorSecurityAnswerBlank</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.apiErrorSecurityAnswerBlank(ApiCustomerPost.java:862)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">automationFramework.TestCases.ApiCustomerPost:apiErrorContainContigousCharacterPin</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorContainContigousCharacterPin(ApiCustomerPost.java:793)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankPhoneNumber3</h2>
+<div style="padding-left:3em">
+<p>Index: 2, Size: 1</p>
+java.util.ArrayList.rangeCheck(Unknown Source)
+<br/>at java.util.ArrayList.get(Unknown Source)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankPhoneNumber3(ApiCustomerPost.java:435)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">automationFramework.TestCases.ApiCustomerPost:apiErrorContainUsernamePassword</h2>
+<div style="padding-left:3em">
+<p>expected [Password can not contain username in it.] but found [{errors.password.cannot.contain.username}]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorContainUsernamePassword(ApiCustomerPost.java:659)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">automationFramework.TestCases.ApiCustomerPost:apiErrorSecurityQuestionInvalid</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.apiErrorSecurityQuestionInvalid(ApiCustomerPost.java:850)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthUserName</h2>
+<div style="padding-left:3em">
+<p>expected [errors.general.value.toolong] but found [errors.general.email.invalid.format]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorMaxLengthUserName(ApiCustomerPost.java:593)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidUserName</h2>
+<div style="padding-left:3em">
+<p>expected [errors.general.email.invalid.format.] but found [errors.general.email.invalid.format]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidUserName(ApiCustomerPost.java:617)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">automationFramework.TestCases.ApiCustomerPost:apiErrorMaximumLengthEmail</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:993)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorMaximumLengthEmail(ApiCustomerPost.java:498)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankPersonalId</h2>
+<div style="padding-left:3em">
+<p>expected [If personal identifier info is provided, personal identifier is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:995)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankPersonalId(ApiCustomerPost.java:534)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">automationFramework.TestCases.ApiCustomerPost:apiErrorNonNumericPin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankUserName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthContactFirstName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankContactType</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthContactMiddleName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthAddress2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankContactName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankContact</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m60">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthPersonalId</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m61">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankContactFirstName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m62">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthAddress</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m63">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthContactLastName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m64">automationFramework.TestCases.ApiCustomerPost:apiErrorContainUsernamePin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m65">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidFormatEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m66">automationFramework.TestCases.ApiCustomerPost:apiPostSuccess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m67">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankCustomerType</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m68">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankContactLastName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m69">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthCity</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m70">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidPostalCode</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

@@ -1,13 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Test2 - Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="ApiTest(failed)">
     <classes>
-      <class name="automationFramework.TestCases.ApiOamCreateAccount">
+      <class name="automationFramework.TestCases.ApiCustomerPost">
         <methods>
-          <include name="ApiPostSuccess"/>
+          <include name="apiErrorContainSpecialCharactersPassword"/>
+          <include name="apiErrorBlankPersonalIdType"/>
+          <include name="apiErrorBlankCountry"/>
+          <include name="apiErrorMixCasesPassword"/>
+          <include name="apiErrorBlankPhoneType"/>
+          <include name="apiErrorTooLongPin"/>
+          <include name="apiErrorBlankState"/>
+          <include name="apiErrorContainLettersPassword"/>
+          <include name="apiErrorBlankPassword"/>
+          <include name="apiErrorMaxLengthPassword"/>
+          <include name="apiErrorContainSameCharacterPassword"/>
+          <include name="apiErrorMinLengthPassword"/>
+          <include name="apiErrorContainUsernamePassword"/>
+          <include name="apiErrorBlankPhoneNumber"/>
+          <include name="apiErrorInvalidSuffixId"/>
+          <include name="tearDown"/>
+          <include name="apiErrorContainDictionaryPassword"/>
+          <include name="apiErrorInvalidUserName"/>
+          <include name="apiErrorSecurityQuestionBlank"/>
+          <include name="apiErrorSecurityAnswerMaxLength"/>
+          <include name="apiErrorInvalidPhoneNumber2"/>
+          <include name="apiErrorInvalidPhoneNumber3"/>
+          <include name="apiErrorInvalidPhoneType3"/>
+          <include name="apiErrorInvalidCustomerType"/>
+          <include name="apiErrorInvalidPhoneType2"/>
+          <include name="apiErrorInvalidPersonalIdType"/>
+          <include name="apiErrorContainDigitsPassword"/>
+          <include name="apiErrorInvalidContactType"/>
+          <include name="apiErrorContainContigousCharacterPin"/>
+          <include name="apiErrorAddressId"/>
+          <include name="apiErrorBlankPersonalId"/>
+          <include name="setUp"/>
+          <include name="apiErrorSecurityAnswerBlank"/>
+          <include name="apiErrorSecurityQuestionInvalid"/>
+          <include name="apiErrorSpecialCharactersUserName"/>
+          <include name="apiErrorTooSmallPin"/>
+          <include name="apiErrorInvalidCountry"/>
+          <include name="apiErrorMaxLengthUserName"/>
+          <include name="apiErrorBlankPhoneNumber2"/>
+          <include name="apiErrorMaximumLengthEmail"/>
+          <include name="apiErrorBlankPhoneNumber3"/>
+          <include name="apiErrorBlankCity"/>
+          <include name="apiErrorDuplicateUserName"/>
+          <include name="apiErrorBlankPhoneType2"/>
+          <include name="apiErrorBlankPostalCode"/>
+          <include name="apiErrorBlankPhoneType3"/>
+          <include name="apiErrorInvalidPhoneNumber"/>
+          <include name="apiErrorInvalidPhoneType"/>
+          <include name="apiErrorInvalidState"/>
+          <include name="apiErrorBlankAddress"/>
+          <include name="apiErrorContainConsecutiveCharacterPin"/>
+          <include name="apiErrorSpecialCharactersEmail"/>
         </methods>
-      </class> <!-- automationFramework.TestCases.ApiOamCreateAccount -->
+      </class> <!-- automationFramework.TestCases.ApiCustomerPost -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- ApiTest(failed) -->
+</suite> <!-- Failed suite [Test2 - Suite] -->

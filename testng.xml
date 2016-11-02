@@ -1,7 +1,7 @@
 <suite name="Test2 - Suite" >
 	<test name ="ApiTest">
 		<classes>
-		      <class name="automationFramework.TestCases.ApiCreateAccount" />
+		      <class name="automationFramework.TestCases.ApiCustomerPost" />
 		</classes>
 	</test>
 		<listeners>

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.719">
+           time="2.565">
   <properties />
   
   
-            <testcase name="ApiPostSuccess" time="1.719" classname="automationFramework.TestCases.ApiCreateAccount" />
+            <testcase name="ApiPostSuccess" time="2.565" classname="automationFramework.TestCases.ApiCreateAccount" />
       
 </testsuite>

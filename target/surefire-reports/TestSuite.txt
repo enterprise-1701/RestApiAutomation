@@ -1,4 +1,57 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.533 sec
+Tests run: 20, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 4.871 sec <<< FAILURE!
+apiErrorAddressId(automationFramework.TestCases.ApiCustomerPost)  Time elapsed: 1.594 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:372)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorAddressId(ApiCustomerPost.java:187)
+apiErrorBlankAddress(automationFramework.TestCases.ApiCustomerPost)  Time elapsed: 0.045 sec  <<< FAILURE!
+java.lang.AssertionError: expected [If address is provided, address1 is required.] but found [Field is blank.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankAddress(ApiCustomerPost.java:198)
+apiErrorBlankCity(automationFramework.TestCases.ApiCustomerPost)  Time elapsed: 0.034 sec  <<< FAILURE!
+java.lang.AssertionError: expected [If address is provided, city is required.] but found [Field is blank.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankCity(ApiCustomerPost.java:233)
+apiErrorBlankCountry(automationFramework.TestCases.ApiCustomerPost)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: expected [If address is provided, country is required.] but found [Field is blank.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankCountry(ApiCustomerPost.java:255)
+apiErrorInvalidContactType(automationFramework.TestCases.ApiCustomerPost)  Time elapsed: 0.03 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid contact type.] but found [Invalid value.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidContactType(ApiCustomerPost.java:86)
+apiErrorInvalidCustomerType(automationFramework.TestCases.ApiCustomerPost)  Time elapsed: 0.031 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid customer type.] but found [Invalid value.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidCustomerType(ApiCustomerPost.java:65)
+apiErrorInvalidSuffixId(automationFramework.TestCases.ApiCustomerPost)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:372)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidSuffixId(ApiCustomerPost.java:176)
